@@ -19,14 +19,14 @@ Building The Provider
 Clone repository to: `$GOPATH/src/github.com/terraform-providers/terraform-provider-profitbricks`
 
 ```sh
-$ mkdir -p $GOPATH/src/github.com/hashicorp; cd $GOPATH/src/github.com/hashicorp
+$ mkdir -p $GOPATH/src/github.com/terraform-providers; cd $GOPATH/src/github.com/terraform-providers
 $ git clone git@github.com:terraform-providers/terraform-provider-profitbricks
 ```
 
 Enter the provider directory and build the provider
 
 ```sh
-$ cd $GOPATH/src/github.com/hashicorp/terraform-provider-profitbricks
+$ cd $GOPATH/src/github.com/terraform-providers/terraform-provider-profitbricks
 $ make build
 ```
 
